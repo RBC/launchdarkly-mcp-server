@@ -7,6 +7,7 @@ sources:
         overlays:
             - location: ./schemas/mcp-enable-tools.yaml
             - location: ./schemas/suggestions.yaml
+            - location: ./schemas/spec-fixes.yaml
         output: ./schemas/output.json
         registry:
             location: registry.speakeasyapi.dev/launchdarkly/mcp/launchdarkly-rest-api

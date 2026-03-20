@@ -42847,7 +42847,8 @@
             "type": "string",
             "format": "date-time",
             "description": "Timestamp of last time flag was requested",
-            "example": "2020-02-05T18:17:01.514Z"
+            "example": "2020-02-05T18:17:01.514Z",
+            "nullable": true
           },
           "default": {
             "description": "Default value seen from code"
@@ -43815,7 +43816,8 @@
             "type": "string",
             "format": "date-time",
             "description": "Timestamp of last time flag was requested",
-            "example": "2020-02-05T18:17:01.514Z"
+            "example": "2020-02-05T18:17:01.514Z",
+            "nullable": true
           },
           "default": {
             "description": "Default value seen from code"
