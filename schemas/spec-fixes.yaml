@@ -1,0 +1,13 @@
+overlay: 1.0.0
+info:
+  title: Spec Fixes Overlay
+  version: 0.0.1
+actions:
+  - target: $["components"]["schemas"]["FeatureFlagStatus"]["properties"]["lastRequested"]
+    description: "API returns null for lastRequested when a flag has never been evaluated"
+    update:
+      nullable: true
+  - target: $["components"]["schemas"]["FlagStatusRep"]["properties"]["lastRequested"]
+    description: "API returns null for lastRequested when a flag has never been evaluated"
+    update:
+      nullable: true
